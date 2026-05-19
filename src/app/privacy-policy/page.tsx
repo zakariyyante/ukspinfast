@@ -3,33 +3,33 @@ export const dynamic = "force-dynamic";
 export default function PrivacyPolicy() {
   return (
     <div className="container mx-auto px-4 py-20">
-      <h1 className="text-4xl font-bold mb-8">Privacy <span className="text-primary">Policy</span></h1>
+      <h1 className="text-4xl font-bold mb-8">Política de <span className="text-primary">Privacidade</span></h1>
       <div className="max-w-4xl prose prose-invert">
-        <p className="text-sm text-foreground/50 mb-8">Last Updated: May 2026</p>
+        <p className="text-sm text-foreground/50 mb-8">Última Atualização: Maio de 2026</p>
 
-        <h2 className="text-2xl font-bold mb-4">1. Information We Collect</h2>
+        <h2 className="text-2xl font-bold mb-4">1. Informações que Coletamos</h2>
         <p className="mb-6">
-          We collect minimal personal information. This may include your IP address, browser type, and device information collected through cookies to improve our website's performance and user experience.
+          Coletamos informações pessoais mínimas. Isso pode incluir seu endereço IP, tipo de navegador e informações do dispositivo coletadas por meio de cookies para melhorar o desempenho do nosso site e a experiência do usuário.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">2. Use of Cookies</h2>
+        <h2 className="text-2xl font-bold mb-4">2. Uso de Cookies</h2>
         <p className="mb-6">
-          We use cookies to track user behavior on our site and to manage our affiliate links (e.g., GCLID tracking). We comply with Google Consent Mode V2, allowing you to manage your cookie preferences.
+          Usamos cookies para rastrear o comportamento do usuário em nosso site e gerenciar nossos links de afiliados (por exemplo, rastreamento GCLID). Cumprimos o Google Consent Mode V2, permitindo que você gerencie suas preferências de cookies.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">3. Third-Party Links</h2>
+        <h2 className="text-2xl font-bold mb-4">3. Links de Terceiros</h2>
         <p className="mb-6">
-          Our website contains links to third-party casino sites. These sites have their own privacy policies, and we are not responsible for their practices.
+          Nosso site contém links para sites de cassino de terceiros. Esses sites têm suas próprias políticas de privacidade e não somos responsáveis por suas práticas.
         </p>
 
-        <h2 className="text-20 font-bold mb-4">4. Data Security</h2>
+        <h2 className="text-20 font-bold mb-4">4. Segurança de Dados</h2>
         <p className="mb-6">
-          We implement appropriate security measures to protect your information from unauthorized access or disclosure.
+          Implementamos medidas de segurança apropriadas para proteger suas informações contra acesso ou divulgação não autorizada.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">5. Your Rights</h2>
+        <h2 className="text-2xl font-bold mb-4">5. Seus Direitos</h2>
         <p className="mb-6">
-          Under the GDPR and UK data protection laws, you have the right to access, rectify, or erase your personal data. Contact us if you wish to exercise these rights.
+          De acordo com a LGPD e as leis de proteção de dados, você tem o direito de acessar, retificar ou excluir seus dados pessoais. Entre em contato conosco se desejar exercer esses direitos.
         </p>
       </div>
     </div>

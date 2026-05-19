@@ -14,8 +14,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const revalidate = 0;
 
 export const metadata: Metadata = {
-  title: "Top Spin UK | Best Online Casinos in UK",
-  description: "Find the best online casinos in the UK with top bonuses and secure gameplay.",
+  title: "CassinoFácil | Melhores Cassinos Online",
+  description: "Encontre os melhores cassinos online com os melhores bônus e jogabilidade segura.",
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="pt-BR" className="dark">
       <body className={cn(inter.className, "min-h-screen flex flex-col bg-background text-foreground")}>
         <Suspense fallback={null}>
           <GclidTracker />

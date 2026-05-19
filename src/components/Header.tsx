@@ -9,18 +9,19 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "About Us", href: "/about-us" },
-    { name: "Responsible Gambling", href: "/responsible-gambling" },
-    { name: "Contact Us", href: "/contact-us" },
+    { name: "Início", href: "/" },
+    { name: "Sobre nós", href: "/about-us" },
+    { name: "Contactos", href: "/contact-us" },
+    { name: "Termos", href: "/terms-and-conditions" },
+    { name: "Privacidade", href: "/privacy-policy" },
   ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-xl font-bold tracking-tighter text-primary neon-text">
-            TOPSPIN<span className="text-foreground">UK</span>
+          <span className="text-xl font-bold tracking-tighter text-primary">
+            CASSINO<span className="text-foreground">FÁCIL</span>
           </span>
         </Link>
 

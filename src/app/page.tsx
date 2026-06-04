@@ -38,8 +38,8 @@ export default async function Home({
       <section className="py-20 bg-panel/20 border-y border-border">
         <div className="container mx-auto px-4">
           <div className="mb-16 text-center">
-            <h2 className="text-3xl font-bold md:text-5xl mb-4">Why Trust <span className="text-primary">Top5UKCasinoList</span>?</h2>
-            <p className="text-foreground/60 max-w-2xl mx-auto">We provide transparent, data-driven reviews to help you find the safest and most rewarding gaming experiences.</p>
+            <h2 className="text-3xl font-bold md:text-5xl mb-4">Why Trust <span className="text-primary">UKSpinFast</span>?</h2>
+            <p className="text-foreground/60 max-w-2xl mx-auto">We offer clear, evidence-based evaluations to assist you in discovering the most secure and high-quality gaming platforms.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -65,9 +65,9 @@ export default async function Home({
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto prose prose-invert">
-            <h2 className="text-3xl font-bold mb-6">The Ultimate Guide to Online Casinos</h2>
+            <h2 className="text-3xl font-bold mb-6">Your Guide to the Best Online Casinos</h2>
             <p className="mb-4">
-              Finding the right online casino can be a daunting task, especially with the vast number of options available. At Top5UKCasinoList, we simplify this process by providing comprehensive reviews and up-to-date information on the best platforms in the industry.
+              Selecting the ideal online casino can be overwhelming given the multitude of choices. At UKSpinFast, we streamline this search by offering in-depth analysis and the latest updates on the industry's premier platforms.
             </p>
             <h3 className="text-2xl font-bold mb-4">What to Look for in an Online Casino</h3>
             <ul className="list-disc pl-6 mb-6 space-y-2 text-foreground/80">

@@ -16,6 +16,14 @@ const Hero = ({ headText, headParagraph }: HeroProps) => {
 
   return (
     <section className="relative overflow-hidden bg-hero-gradient py-12 md:py-20 border-b border-border">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0 opacity-10">
+        <img 
+          src="/casino_theme.png" 
+          alt="Casino Theme background" 
+          className="h-full w-full object-cover"
+        />
+      </div>
       <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10">
         <div className="bg-gradient-to-r from-primary to-secondary px-4 py-1 rounded-md border border-primary/50 shadow-lg">
           <span className="text-[10px] font-bold text-white uppercase tracking-wider flex items-center gap-2">
@@ -27,7 +35,7 @@ const Hero = ({ headText, headParagraph }: HeroProps) => {
       <div className="absolute -left-20 -top-20 h-64 w-64 rounded-full bg-primary/10 blur-[100px]" />
       <div className="absolute -right-20 -bottom-20 h-64 w-64 rounded-full bg-secondary/10 blur-[100px]" />
 
-      <div className="container relative mx-auto px-4">
+      <div className="container relative z-10 mx-auto px-4">
         <div className="max-w-3xl">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/5 px-3 py-1 text-xs font-medium text-primary md:text-sm">
             <span className="relative flex h-2 w-2">

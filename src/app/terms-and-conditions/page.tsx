@@ -9,17 +9,17 @@ export default function TermsAndConditions() {
         
         <h2 className="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
         <p className="mb-6">
-          By accessing and using top5ukcasinolist.com, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must not use our website.
+          By using and browsing ukspinfast.com, you consent to these Terms and Conditions. If you disagree with any portion of these terms, please refrain from using our site.
         </p>
 
         <h2 className="text-2xl font-bold mb-4">2. Age Restriction</h2>
         <p className="mb-6">
-          You must be at least 18 years of age to use this website. By using this website, you warrant and represent that you are at least 18 years old. We strictly adhere to gambling regulations.
+          Access is strictly limited to individuals aged 18 and over. By continuing, you confirm you meet this age requirement. We strictly follow all gambling laws and regulations.
         </p>
 
         <h2 className="text-2xl font-bold mb-4">3. Affiliate Disclosure</h2>
         <p className="mb-6">
-          top5ukcasinolist.com is an affiliate marketing website. We receive commissions from the casino operators listed on our site when users click on our links and sign up. This does not affect the cost to you as a player.
+          ukspinfast.com operates as an affiliate marketing platform. We may earn a commission from the casino brands featured on our site when you register through our links. This comes at no extra cost to you.
         </p>
 
         <h2 className="text-2xl font-bold mb-4">4. No Gambling Services</h2>

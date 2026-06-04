@@ -127,7 +127,7 @@ const BrandCard = ({ partner, order, isMobile: isMobileDevice }: BrandCardProps)
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleCtaClick}
-            className="flex items-center justify-center gap-2 rounded-lg bg-primary px-6 py-4 text-center font-bold text-primary-foreground transition-transform hover:scale-105 active:scale-95 shadow-lg"
+            className="flex items-center justify-center gap-2 rounded-lg bg-[#800000] px-8 py-5 text-center font-bold text-[#00FFFF] transition-transform hover:scale-105 active:scale-95 shadow-lg]"
           >
             PLAY NOW <span className="text-lg">›</span>
           </a>
@@ -181,7 +181,7 @@ const BrandCard = ({ partner, order, isMobile: isMobileDevice }: BrandCardProps)
               target="_blank"
               rel="noopener noreferrer"
               onClick={handleCtaClick}
-              className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-primary px-4 py-3 text-center text-sm font-bold text-primary-foreground shadow-lg"
+              className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-[#800000] px-6 py-4 text-center text-sm font-bold text-[#00FFFF] shadow-lg outline outline-2 outline-[#00FFFF]"
             >
               CLAIM NOW 🎁
             </a>

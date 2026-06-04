@@ -6,7 +6,7 @@ export default function ResponsibleGambling() {
       <h1 className="text-4xl font-bold mb-8">Responsible <span className="text-primary">Gambling</span></h1>
       <div className="max-w-4xl prose prose-invert">
         <p className="text-lg text-foreground/70 mb-8">
-          At Top5UKCasinoList, we are committed to promoting responsible gambling. We believe that gambling should always be a form of entertainment and never a way to make money or escape problems.
+          At UKSpinFast, we are dedicated to advocating for safe and responsible betting. We believe that gambling should remain a fun pastime and never be viewed as a financial solution or an escape from personal challenges.
         </p>
 
         <h2 className="text-2xl font-bold mb-4">Tips for Safe Gambling</h2>

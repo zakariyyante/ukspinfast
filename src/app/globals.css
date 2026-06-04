@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #0f0d0b;
+  --color-background: #483248;
   --color-foreground: #ffffff;
   --color-primary: #ff9900;
   --color-primary-foreground: #000000;
@@ -12,7 +12,7 @@
   --color-panel: #1b1b1b;
   --color-border: #333333;
 
-  --background-image-hero-gradient: radial-gradient(circle at center, #2a1b12 0%, #0f0d0b 100%);
+  --background-image-hero-gradient: radial-gradient(circle at center, #2a1b12 0%, #483248 100%);
 }
 
 @layer base {

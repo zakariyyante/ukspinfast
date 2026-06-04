@@ -24,9 +24,9 @@ export interface ApiPageBrand {
 export const mockLandingPages: ApiLandingPage[] = [
   {
     id: "lp-1",
-    headText: "Best Online Casino Sites — June 2026",
+    headText: "Top-Rated Online Casino Sites in the UK",
     headParagraph: "Discover the top-rated online casinos. Safe, secure, and fully licensed. Get the best bonuses and start playing today!",
-    pageTitle: "Best Online Casinos | Top5UKCasinoList",
+    pageTitle: "Top Online Casinos | UKSpinFast",
     isActive: true,
     order: 1,
   },

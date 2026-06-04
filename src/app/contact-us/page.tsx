@@ -13,12 +13,12 @@ export default function ContactUs() {
           <div className="p-6 rounded-2xl bg-panel border border-border">
             <h3 className="text-xl font-bold mb-2 text-primary">Email Us</h3>
             <p className="text-foreground/60 mb-4">For general inquiries and support:</p>
-            <a href="mailto:support@top5ukcasinolist.com" className="text-lg font-medium hover:text-primary transition-colors">support@top5ukcasinolist.com</a>
+            <a href="mailto:support@ukspinfast.com" className="text-lg font-medium hover:text-primary transition-colors">support@ukspinfast.com</a>
           </div>
           <div className="p-6 rounded-2xl bg-panel border border-border">
             <h3 className="text-xl font-bold mb-2 text-primary">Partnerships</h3>
             <p className="text-foreground/60 mb-4">For business and advertising opportunities:</p>
-            <a href="mailto:partners@top5ukcasinolist.com" className="text-lg font-medium hover:text-primary transition-colors">partners@top5ukcasinolist.com</a>
+            <a href="mailto:partners@ukspinfast.com" className="text-lg font-medium hover:text-primary transition-colors">partners@ukspinfast.com</a>
           </div>
         </div>
 

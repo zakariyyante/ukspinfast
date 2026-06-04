@@ -18,9 +18,9 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md">
-      <div className="container mx-auto flex h-24 items-center justify-between px-4">
+      <div className="container mx-auto flex h-32 items-center justify-between px-4">
         <Link href="/" className="flex items-center">
-          <img src="/top5ukcasinolost_logo_transparent.png" alt="Top5UKCasinoList Logo" className="h-20 w-auto" />
+          <img src="/ukspinfast_logo_transparent.png" alt="UKSpinFast Logo" className="h-28 w-auto" />
         </Link>
 
         {/* Desktop Nav */}
@@ -56,7 +56,7 @@ const Header = () => {
 
       {/* Mobile Nav */}
       {isMenuOpen && (
-        <div className="absolute left-0 top-24 w-full border-b border-border bg-background p-4 md:hidden">
+        <div className="absolute left-0 top-32 w-full border-b border-border bg-background p-4 md:hidden">
           <nav className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <Link

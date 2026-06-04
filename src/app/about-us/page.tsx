@@ -3,18 +3,18 @@ export const dynamic = "force-dynamic";
 export default function AboutUs() {
   return (
     <div className="container mx-auto px-4 py-20">
-      <h1 className="text-4xl font-bold mb-8">About <span className="text-primary">Top5UKCasinoList</span></h1>
+      <h1 className="text-4xl font-bold mb-8">About <span className="text-primary">UKSpinFast</span></h1>
       <div className="max-w-3xl prose prose-invert">
         <p className="text-lg text-foreground/70 mb-6">
-          Top5UKCasinoList is a leading platform dedicated to providing players with the most reliable and up-to-date information on online casinos. Our mission is to ensure a safe, fair, and enjoyable gaming experience for everyone.
+          UKSpinFast is your go-to destination for the most trustworthy and current insights into the world of online casinos. Our goal is to provide a secure, transparent, and thrilling gaming environment for all players.
         </p>
-        <h2 className="text-2xl font-bold mb-4">Our Expertise</h2>
+        <h2 className="text-2xl font-bold mb-4">Our Knowledge</h2>
         <p className="mb-6">
-          With years of experience in the iGaming industry, our team of experts meticulously reviews and tests every casino we recommend. We look beyond flashy bonuses to evaluate the core components that matter most to players: security, game quality, and payout reliability.
+          With extensive background in the iGaming sector, our specialist team carefully analyzes and verifies every platform we feature. We prioritize essential factors like player safety, game variety, and withdrawal speed over superficial offers.
         </p>
-        <h2 className="text-2xl font-bold mb-4">Our Commitment</h2>
+        <h2 className="text-2xl font-bold mb-4">Our Promise</h2>
         <p className="mb-6">
-          Transparency is at the heart of everything we do. We disclose our affiliate relationships and ensure that our reviews remain unbiased and focused on the player's best interest. We are also staunch advocates for responsible gambling and work closely with industry bodies to promote safe play.
+          Honesty is fundamental to our operations. We maintain full transparency regarding our affiliate ties, ensuring our evaluations stay neutral and player-centric. We are also dedicated proponents of responsible gaming, collaborating with key organizations to ensure a safe betting experience.
         </p>
       </div>
     </div>

@@ -11,13 +11,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-3">
-              <img src="/top5ukcasinolost_logo_transparent.png" alt="Top5UKCasinoList Logo" className="h-14 w-auto" />
-              <span className="text-2xl font-bold tracking-tighter text-foreground">
-                TOP5UKCASINOLIST
+              <img src="/ukspinfast_logo_transparent.png" alt="UKSpinFast Logo" className="h-20 w-auto" />
+              <span className="text-3xl font-bold tracking-tighter text-foreground">
+                UKSPINFAST
               </span>
             </Link>
             <p className="text-sm text-foreground/60">
-              Your trusted source for the best online casino reviews and bonuses. We only list licensed and regulated brands.
+              Your reliable guide for top-tier online casino evaluations and bonuses. We exclusively feature licensed and compliant brands.
             </p>
             <div className="flex items-center gap-2">
               <span className="rounded bg-red-600 px-2 py-1 text-xs font-bold text-white">18+</span>
@@ -49,7 +49,7 @@ const Footer = () => {
             We do not offer gambling services. Offers subject to T&Cs. 18+.
           </p>
           <p className="text-xs text-foreground/40">
-          © {getCurrentYear()} top5ukcasinolist.com. All rights reserved. Gambling is for 18+ only.
+          © {getCurrentYear()} ukspinfast.com. All rights reserved. Gambling is for 18+ only.
         </p>
           <div className="flex flex-wrap justify-center gap-8 items-center grayscale opacity-50 hover:opacity-100 transition-opacity">
             <a href="https://www.begambleaware.org/" target="_blank" rel="noopener noreferrer" className="hover:grayscale-0 transition-all">

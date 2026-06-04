@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const revalidate = 0;
 
 export const metadata: Metadata = {
-  title: "Top5UKCasinoList | Best Online Casinos",
+  title: "UKSpinFast | Top Online Casino Reviews",
   description: "Find the best online casinos with top bonuses and secure gameplay.",
 };
 

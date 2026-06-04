@@ -8,18 +8,18 @@ interface HeroProps {
 
 const Hero = ({ headText, headParagraph }: HeroProps) => {
   const badges = [
-    { icon: ShieldCheck, text: "Licenciados" },
-    { icon: Zap, text: "Análises imparciais" },
-    { icon: Lock, text: "Conteúdo atual" },
-    { icon: Eye, text: "Seguros e fiáveis" },
+    { icon: ShieldCheck, text: "Certified & Protected" },
+    { icon: Zap, text: "Same-Day Withdrawals" },
+    { icon: Lock, text: "Minimal Documentation" },
+    { icon: Eye, text: "Privacy-First Gaming" },
   ];
 
   return (
     <section className="relative overflow-hidden bg-hero-gradient py-12 md:py-20 border-b border-border">
       <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10">
-        <div className="bg-gradient-to-r from-yellow-600 to-red-600 px-4 py-1 rounded-md border border-yellow-500/50 shadow-lg">
+        <div className="bg-gradient-to-r from-primary to-secondary px-4 py-1 rounded-md border border-primary/50 shadow-lg">
           <span className="text-[10px] font-bold text-white uppercase tracking-wider flex items-center gap-2">
-            <span className="bg-yellow-500 text-black px-1 rounded text-[8px]">T</span> RECOMPENSAS EM DESTAQUE
+            <span className="bg-primary text-primary-foreground px-1 rounded text-[8px]">T</span> FEATURED REWARDS
           </span>
         </div>
       </div>
@@ -34,7 +34,7 @@ const Hero = ({ headText, headParagraph }: HeroProps) => {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75"></span>
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary"></span>
             </span>
-            Última atualização: 19 de maio de 2026
+            Last updated: {getCurrentMonthName()} {getCurrentYear()}
           </div>
           
           <h1 className="mb-6 text-4xl font-extrabold tracking-tight md:text-6xl">
@@ -43,10 +43,10 @@ const Hero = ({ headText, headParagraph }: HeroProps) => {
 
           <div className="flex flex-col gap-2 mb-8 text-sm font-medium text-foreground/80">
             <div className="flex items-center gap-2">
-              <span className="text-red-500">✓</span> Licenciados em PT <span className="text-red-500">✓</span> Seguros e fiáveis
+              <span className="text-primary">✓</span> Licensed & Secure <span className="text-primary">✓</span> Fast Payouts
             </div>
             <div className="text-xs text-foreground/60">
-              +18. Seja responsável, jogue com moderação.
+              +18. Play responsibly, gamble with moderation.
             </div>
           </div>
 

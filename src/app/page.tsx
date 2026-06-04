@@ -26,8 +26,8 @@ export default async function Home({
   return (
     <div className="flex flex-col">
       <Hero 
-        headText={landingPage?.headText || "Melhores sites de casino online em Portugal — maio 2026"} 
-        headParagraph={landingPage?.headParagraph || "Descubra os cassinos online mais bem avaliados com bônus exclusivos."} 
+        headText={landingPage?.headText || "Best Online Casino Sites — June 2026"} 
+        headParagraph={landingPage?.headParagraph || "Discover the top-rated online casinos with exclusive bonuses."} 
       />
 
       <section id="brands" className="bg-background py-8">
@@ -38,16 +38,16 @@ export default async function Home({
       <section className="py-20 bg-panel/20 border-y border-border">
         <div className="container mx-auto px-4">
           <div className="mb-16 text-center">
-            <h2 className="text-3xl font-bold md:text-5xl mb-4">Por que confiar no <span className="text-primary">CassinoFácil</span>?</h2>
-            <p className="text-foreground/60 max-w-2xl mx-auto">Fornecemos avaliações transparentes e baseadas em dados para ajudar você a encontrar as experiências de jogo mais seguras e recompensadoras.</p>
+            <h2 className="text-3xl font-bold md:text-5xl mb-4">Why Trust <span className="text-primary">Top5UKCasinoList</span>?</h2>
+            <p className="text-foreground/60 max-w-2xl mx-auto">We provide transparent, data-driven reviews to help you find the safest and most rewarding gaming experiences.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
-              { icon: ShieldCheck, title: "Licenciado e Seguro", desc: "Cada cassino que listamos é totalmente regulamentado e seguro para jogadores." },
-              { icon: Zap, title: "Pagamentos Rápidos", desc: "Priorizamos marcas que oferecem saques instantâneos ou no mesmo dia." },
-              { icon: Award, title: "Bônus Exclusivos", desc: "Acesse ofertas e promoções especiais que você não encontrará em nenhum outro lugar." },
-              { icon: Users, title: "Avaliações de Jogadores", desc: "Feedback real de jogadores reais para orientar sua escolha." }
+              { icon: ShieldCheck, title: "Licensed & Secure", desc: "Every casino we list is fully regulated and safe for players." },
+              { icon: Zap, title: "Fast Payouts", desc: "We prioritize brands that offer instant or same-day withdrawals." },
+              { icon: Award, title: "Exclusive Bonuses", desc: "Access special offers and promotions found nowhere else." },
+              { icon: Users, title: "Player Reviews", desc: "Real feedback from real players to guide your choice." }
             ].map((item, i) => (
               <div key={i} className="flex flex-col items-center text-center p-6 rounded-2xl bg-panel border border-border hover:border-primary/30 transition-all">
                 <div className="mb-4 p-3 rounded-full bg-primary/10 text-primary">
@@ -65,19 +65,19 @@ export default async function Home({
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto prose prose-invert">
-            <h2 className="text-3xl font-bold mb-6">O Guia Definitivo para Cassinos Online</h2>
+            <h2 className="text-3xl font-bold mb-6">The Ultimate Guide to Online Casinos</h2>
             <p className="mb-4">
-              Encontrar o cassino online certo pode ser uma tarefa assustadora, especialmente com o vasto número de opções disponíveis. No CassinoFácil, simplificamos esse processo fornecendo avaliações abrangentes e informações atualizadas sobre as melhores plataformas do setor.
+              Finding the right online casino can be a daunting task, especially with the vast number of options available. At Top5UKCasinoList, we simplify this process by providing comprehensive reviews and up-to-date information on the best platforms in the industry.
             </p>
-            <h3 className="text-2xl font-bold mb-4">O que procurar em um cassino online</h3>
+            <h3 className="text-2xl font-bold mb-4">What to Look for in an Online Casino</h3>
             <ul className="list-disc pl-6 mb-6 space-y-2 text-foreground/80">
-              <li><strong>Licenciamento:</strong> Sempre certifique-se de que o cassino possua uma licença válida e reconhecida.</li>
-              <li><strong>Seleção de Jogos:</strong> Procure uma grande variedade de slots, jogos de mesa e opções de cassino ao vivo dos principais provedores como NetEnt e Microgaming.</li>
-              <li><strong>Métodos de Pagamento:</strong> Os melhores cassinos oferecem várias opções seguras, incluindo cartões de crédito, carteiras eletrônicas como PayPal e transferências bancárias.</li>
-              <li><strong>Suporte ao Cliente:</strong> O suporte 24 horas por dia, 7 dias por semana, via chat ao vivo, e-mail ou telefone é crucial para uma experiência positiva.</li>
+              <li><strong>Licensing:</strong> Always ensure the casino holds a valid and recognized license.</li>
+              <li><strong>Game Selection:</strong> Look for a wide variety of slots, table games, and live dealer options from top providers like NetEnt and Microgaming.</li>
+              <li><strong>Payment Methods:</strong> The best casinos offer multiple secure options, including credit cards, e-wallets like PayPal, and bank transfers.</li>
+              <li><strong>Customer Support:</strong> 24/7 support via live chat, email, or phone is crucial for a positive experience.</li>
             </ul>
             <p>
-              Nossa equipe de especialistas monitora continuamente o mercado para garantir que nossas recomendações permaneçam precisas e benéficas para nossos usuários. Seja você um jogador experiente ou novo no mundo do jogo online, estamos aqui para ajudá-lo a jogar com segurança e responsabilidade.
+              Our team of experts continuously monitors the market to ensure our recommendations remain accurate and beneficial for our users. Whether you're a seasoned player or new to the world of online gambling, we're here to help you play safely and responsibly.
             </p>
           </div>
         </div>

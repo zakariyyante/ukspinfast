@@ -3,33 +3,33 @@ export const dynamic = "force-dynamic";
 export default function TermsAndConditions() {
   return (
     <div className="container mx-auto px-4 py-20">
-      <h1 className="text-4xl font-bold mb-8">Termos e <span className="text-primary">Condições</span></h1>
+      <h1 className="text-4xl font-bold mb-8">Terms and <span className="text-primary">Conditions</span></h1>
       <div className="max-w-4xl prose prose-invert">
-        <p className="text-sm text-foreground/50 mb-8">Última Atualização: Maio de 2026</p>
+        <p className="text-sm text-foreground/50 mb-8">Last Updated: June 2026</p>
         
-        <h2 className="text-2xl font-bold mb-4">1. Aceitação dos Termos</h2>
+        <h2 className="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
         <p className="mb-6">
-          Ao acessar e usar o cassinofacil.com, você concorda em cumprir estes Termos e Condições. Se você não concordar com qualquer parte destes termos, não deve usar nosso site.
+          By accessing and using top5ukcasinolist.com, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must not use our website.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">2. Restrição de Idade</h2>
+        <h2 className="text-2xl font-bold mb-4">2. Age Restriction</h2>
         <p className="mb-6">
-          Você deve ter pelo menos 18 anos de idade para usar este site. Ao usar este site, você garante e declara que tem pelo menos 18 anos de idade. Aderimos estritamente às regulamentações de jogo.
+          You must be at least 18 years of age to use this website. By using this website, you warrant and represent that you are at least 18 years old. We strictly adhere to gambling regulations.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">3. Divulgação de Afiliados</h2>
+        <h2 className="text-2xl font-bold mb-4">3. Affiliate Disclosure</h2>
         <p className="mb-6">
-          cassinofacil.com é um site de marketing de afiliados. Recebemos comissões dos operadores de cassino listados em nosso site quando os usuários clicam em nossos links e se cadastram. Isso não afeta o custo para você como jogador.
+          top5ukcasinolist.com is an affiliate marketing website. We receive commissions from the casino operators listed on our site when users click on our links and sign up. This does not affect the cost to you as a player.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">4. Sem Serviços de Jogo</h2>
+        <h2 className="text-2xl font-bold mb-4">4. No Gambling Services</h2>
         <p className="mb-6">
-          Nós não fornecemos serviços de jogo. Somos uma plataforma de informações e avaliações. Qualquer jogo em que você se envolva é feito em sites de terceiros e você está sujeito aos termos e condições deles.
+          We do not provide gambling services ourselves. We are an information and review platform. Any gambling you engage in is done on third-party websites, and you are subject to their terms and conditions.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">5. Limitação de Responsabilidade</h2>
+        <h2 className="text-2xl font-bold mb-4">5. Limitation of Liability</h2>
         <p className="mb-6">
-          Esforçamo-nos para fornecer informações precisas, mas não podemos garantir a integridade ou precisão do conteúdo em nosso site. Não somos responsáveis por quaisquer perdas incorridas ao jogar em sites de terceiros.
+          We strive to provide accurate information, but we cannot guarantee the completeness or accuracy of the content on our site. We are not liable for any losses incurred while gambling on third-party sites.
         </p>
       </div>
     </div>

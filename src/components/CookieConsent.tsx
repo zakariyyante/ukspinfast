@@ -43,9 +43,9 @@ const CookieConsent = () => {
             <ShieldCheck size={28} />
           </div>
           <div className="flex-grow space-y-2 text-center md:text-left">
-            <h3 className="text-lg font-bold text-foreground">Configurações de Cookies e Privacidade</h3>
+            <h3 className="text-lg font-bold text-foreground">Cookie & Privacy Settings</h3>
             <p className="text-sm text-foreground/60">
-              Usamos cookies para melhorar sua experiência e analisar nosso tráfego. Ao clicar em "Aceitar Tudo", você consente com o uso de cookies de acordo com o Google Consent Mode V2.
+              We use cookies to enhance your experience and analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with Google Consent Mode V2.
             </p>
           </div>
           <div className="flex w-full flex-col gap-3 md:w-auto md:flex-row">
@@ -53,13 +53,13 @@ const CookieConsent = () => {
               onClick={handleDecline}
               className="rounded-xl border border-border px-6 py-2.5 text-sm font-medium hover:bg-white/5"
             >
-              Recusar
+              Decline
             </button>
             <button
               onClick={handleAccept}
               className="rounded-xl bg-primary px-8 py-2.5 text-sm font-bold text-primary-foreground hover:opacity-90 neon-glow"
             >
-              Aceitar Tudo
+              Accept All
             </button>
           </div>
         </div>

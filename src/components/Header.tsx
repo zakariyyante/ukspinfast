@@ -9,20 +9,18 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: "Início", href: "/" },
-    { name: "Sobre nós", href: "/about-us" },
-    { name: "Contactos", href: "/contact-us" },
-    { name: "Termos", href: "/terms-and-conditions" },
-    { name: "Privacidade", href: "/privacy-policy" },
+    { name: "Home", href: "/" },
+    { name: "About Us", href: "/about-us" },
+    { name: "Contact Us", href: "/contact-us" },
+    { name: "Terms", href: "/terms-and-conditions" },
+    { name: "Privacy", href: "/privacy-policy" },
   ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="text-xl font-bold tracking-tighter text-primary">
-            CASSINO<span className="text-foreground">FÁCIL</span>
-          </span>
+      <div className="container mx-auto flex h-24 items-center justify-between px-4">
+        <Link href="/" className="flex items-center">
+          <img src="/top5ukcasinolost_logo_transparent.png" alt="Top5UKCasinoList Logo" className="h-20 w-auto" />
         </Link>
 
         {/* Desktop Nav */}
@@ -58,7 +56,7 @@ const Header = () => {
 
       {/* Mobile Nav */}
       {isMenuOpen && (
-        <div className="absolute left-0 top-16 w-full border-b border-border bg-background p-4 md:hidden">
+        <div className="absolute left-0 top-24 w-full border-b border-border bg-background p-4 md:hidden">
           <nav className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <Link

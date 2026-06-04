@@ -95,28 +95,28 @@ const BrandCard = ({ partner, order, isMobile: isMobileDevice }: BrandCardProps)
 
         <div className="flex flex-grow flex-col gap-2">
           <div className="my-2 rounded-lg bg-transparent p-0">
-            <div className="text-[10px] font-bold text-primary uppercase tracking-wider mb-1">BÔNUS DE BOAS-VINDAS</div>
+            <div className="text-[10px] font-bold text-primary uppercase tracking-wider mb-1">WELCOME BONUS</div>
             <div className="text-xl font-bold text-foreground">{bonusText}</div>
           </div>
           <div className="flex items-center gap-4">
             {renderStars()}
             <div className="flex items-baseline gap-2">
               <span className="text-xl font-black text-foreground">{rating.toFixed(1)}/10</span>
-              <div className="text-[10px] text-foreground/40">5926 avaliações</div>
+              <div className="text-[10px] text-foreground/40">5926 reviews</div>
             </div>
           </div>
 
           <div className="flex items-center gap-4 mt-2">
             <div className="flex items-center gap-1.5 text-xs text-foreground/60">
               <ShieldCheck size={16} className="text-accent" />
-              Licenciado
+              Licensed
             </div>
             <div className="flex items-center gap-1.5 text-xs text-foreground/60">
               <Zap size={16} className="text-primary" />
-              Pagamentos Rápidos
+              Fast Payouts
             </div>
             <div className="ml-auto text-xs text-foreground/40 italic">
-              *Depósito mín. R$50. T&Cs se aplicam.
+              *Min deposit £10. T&Cs apply.
             </div>
           </div>
         </div>
@@ -127,12 +127,12 @@ const BrandCard = ({ partner, order, isMobile: isMobileDevice }: BrandCardProps)
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleCtaClick}
-            className="flex items-center justify-center gap-2 rounded-lg bg-[#d4af37] px-6 py-4 text-center font-bold text-black transition-transform hover:scale-105 active:scale-95 shadow-lg"
+            className="flex items-center justify-center gap-2 rounded-lg bg-primary px-6 py-4 text-center font-bold text-primary-foreground transition-transform hover:scale-105 active:scale-95 shadow-lg"
           >
-            JOGAR AGORA <span className="text-lg">›</span>
+            PLAY NOW <span className="text-lg">›</span>
           </a>
           <Link href={`/reviews/${partner.id}`} className="text-center text-sm font-medium text-foreground/40 hover:text-foreground transition-colors">
-            Ler Avaliação
+            Read Review
           </Link>
         </div>
       </div>
@@ -161,29 +161,29 @@ const BrandCard = ({ partner, order, isMobile: isMobileDevice }: BrandCardProps)
               <span className="text-xl font-black text-primary">{rating.toFixed(1)}</span>
               {renderStars()}
             </div>
-            <div className="text-[9px] text-foreground/40 uppercase tracking-widest">Votos de Usuários Verificados</div>
+            <div className="text-[9px] text-foreground/40 uppercase tracking-widest">Verified User Votes</div>
           </div>
         </div>
 
         {/* Bottom */}
         <div className="p-4 bg-background/30">
           <div className="mb-3">
-            <div className="text-[10px] font-medium text-foreground/40 uppercase tracking-wider mb-0.5">Oferta de Bônus</div>
+            <div className="text-[10px] font-medium text-foreground/40 uppercase tracking-wider mb-0.5">Bonus Offer</div>
             <div className="text-base font-bold text-foreground leading-snug">{bonusText}</div>
           </div>
 
           <div className="flex items-center justify-between gap-4">
             <div className="text-[9px] text-foreground/40 italic">
-              *Depósito mín. R$50. T&Cs se aplicam.
+              *Min deposit £10. T&Cs apply.
             </div>
             <a
               href={linkUrl}
               target="_blank"
               rel="noopener noreferrer"
               onClick={handleCtaClick}
-              className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-primary px-4 py-3 text-center text-sm font-bold text-primary-foreground neon-glow"
+              className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-primary px-4 py-3 text-center text-sm font-bold text-primary-foreground shadow-lg"
             >
-              RESGATAR AGORA 🎁
+              CLAIM NOW 🎁
             </a>
           </div>
         </div>

@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #0a0a0a;
+  --color-background: #0f0d0b;
   --color-foreground: #ffffff;
-  --color-primary: #eab308;
+  --color-primary: #ff9900;
   --color-primary-foreground: #000000;
-  --color-secondary: #ef4444;
+  --color-secondary: #2a1b12;
   --color-secondary-foreground: #ffffff;
-  --color-accent: #f59e0b;
+  --color-accent: #ff9900;
   --color-accent-foreground: #000000;
-  --color-panel: #171717;
-  --color-border: #262626;
+  --color-panel: #1b1b1b;
+  --color-border: #333333;
 
-  --background-image-hero-gradient: radial-gradient(circle at center, #1a1510 0%, #0a0a0a 100%);
+  --background-image-hero-gradient: radial-gradient(circle at center, #2a1b12 0%, #0f0d0b 100%);
 }
 
 @layer base {
@@ -20,20 +20,20 @@
     @apply border-border;
   }
   body {
-    @apply bg-[#0a0a0a] text-foreground;
+    @apply bg-background text-foreground;
   }
 }
 
 .neon-glow {
-  box-shadow: 0 0 10px rgba(234, 179, 8, 0.3), 0 0 20px rgba(234, 179, 8, 0.1);
+  box-shadow: 0 0 10px rgba(255, 153, 0, 0.3), 0 0 20px rgba(255, 153, 0, 0.1);
 }
 
 .neon-border {
-  border: 1px solid rgba(234, 179, 8, 0.3);
+  border: 1px solid rgba(255, 153, 0, 0.3);
 }
 
 .neon-text {
-  text-shadow: 0 0 5px rgba(234, 179, 8, 0.3);
+  text-shadow: 0 0 5px rgba(255, 153, 0, 0.3);
 }
 
 /* Custom Utilities for v4 if needed */

@@ -10,5 +10,5 @@ export function getCurrentYear() {
 }
 
 export function getCurrentMonthName() {
-  return new Date().toLocaleString("pt-BR", { month: "long" });
+  return new Date().toLocaleString("en-GB", { month: "long" });
 }

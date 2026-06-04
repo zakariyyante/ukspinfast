@@ -6,20 +6,20 @@ import { cn } from "@/lib/utils";
 
 const faqs = [
   {
-    question: "Como classificamos os cassinos online?",
-    answer: "Nosso processo de classificação é minucioso e imparcial. Avaliamos os cassinos com base em seu licenciamento, medidas de segurança, variedade de jogos, justiça dos bônus, velocidade de pagamento e qualidade do suporte ao cliente. Apenas os cassinos que atendem aos nossos altos padrões entram em nossa lista.",
+    question: "How do we rank online casinos?",
+    answer: "Our ranking process is thorough and unbiased. We evaluate casinos based on their licensing, security measures, game variety, bonus fairness, payout speed, and customer support quality. Only casinos that meet our high standards make it to our list.",
   },
   {
-    question: "Estes cassinos online são seguros?",
-    answer: "Sim, todos os cassinos listados em nosso site são totalmente licenciados e regulamentados. Isso garante que eles sigam padrões rigorosos em relação à proteção do jogador, jogo justo e práticas de jogo responsável.",
+    question: "Are these online casinos safe?",
+    answer: "Yes, all casinos listed on our site are fully licensed and regulated. This ensures they adhere to strict standards regarding player protection, fair gaming, and responsible gambling practices.",
   },
   {
-    question: "Qual é o melhor bônus de cassino disponível?",
-    answer: "O 'melhor' bônus depende do seu estilo de jogo. Alguns jogadores preferem grandes bônus de depósito, enquanto outros procuram rodadas grátis ou baixos requisitos de apostas. Exibimos claramente os principais termos de cada bônus para ajudá-lo a fazer uma escolha informada.",
+    question: "What is the best casino bonus available?",
+    answer: "The 'best' bonus depends on your playing style. Some players prefer large deposit matches, while others look for free spins or low wagering requirements. We clearly display the key terms for each bonus to help you make an informed choice.",
   },
   {
-    question: "Posso jogar no meu dispositivo móvel?",
-    answer: "Com certeza. Os cassinos online modernos são construídos pensando nos jogadores móveis. A maioria oferece uma experiência perfeita através do seu navegador móvel, e muitos também fornecem aplicativos dedicados para dispositivos iOS e Android.",
+    question: "Can I play on my mobile device?",
+    answer: "Absolutely. Modern online casinos are built with mobile players in mind. Most offer a seamless experience through your mobile browser, and many also provide dedicated apps for iOS and Android devices.",
   },
 ];
 
@@ -30,7 +30,7 @@ const FAQ = () => {
     <section className="bg-panel/30 py-16">
       <div className="container mx-auto px-4">
         <h2 className="mb-12 text-center text-3xl font-bold md:text-4xl">
-          Perguntas <span className="text-primary">Frequentes</span>
+          Frequently Asked <span className="text-primary">Questions</span>
         </h2>
         <div className="mx-auto max-w-3xl space-y-4">
           {faqs.map((faq, index) => (
